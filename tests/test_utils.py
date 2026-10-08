@@ -1,5 +1,5 @@
 import pytest
-from textlib._utils import require_str, strip_accents
+from utils import require_str, strip_accents
 
 
 def test_require_str_accepts_str():
