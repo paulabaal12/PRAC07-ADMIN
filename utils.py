@@ -1,6 +1,5 @@
 import unicodedata
 
-
 def require_str(value, name):
     if not isinstance(value, str):
         raise TypeError(f"{name} debe ser una cadena de texto")
