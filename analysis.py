@@ -16,3 +16,10 @@ def is_palindrome(s):
     require_str(s, "s")
     cleaned = "".join(c for c in strip_accents(s).lower() if c.isalnum())
     return cleaned == cleaned[::-1]
+
+
+def to_upper(s):
+    # retorna la cadena de texto en mayusculas
+    require_str(s, "s")
+    return s.upper()
+
