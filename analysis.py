@@ -23,3 +23,8 @@ def to_upper(s):
     require_str(s, "s")
     return s.upper()
 
+def concat(c, b): 
+    # retorna la union de dos cadenas de texto
+    require_str(c, "c")
+    require_str(b, "b")
+    return str(c + b)
