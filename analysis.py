@@ -27,4 +27,4 @@ def concat(c, b):
     # retorna la union de dos cadenas de texto
     require_str(c, "c")
     require_str(b, "b")
-    return str(c + b + "ERROR")
+    return str(c + b)
